@@ -2,16 +2,16 @@
   background: repeating-linear-gradient(
       45deg,
       #1928b2,
-      #281333 10px,
-      transparent 50px,
-      transparent 50px
+      #281333 20px,
+      transparent 100px,
+      transparent 120px
     ),
     repeating-linear-gradient(
       90deg,
       #009738cc,
       #170099cc 30px,
       transparent 20px,
-      transparent 100px
+      transparent 50px
     );
 
   animation: startAnimationBody 20s infinite;
@@ -62,8 +62,8 @@
         30deg,
         #095632,
         #932584 20px,
-        transparent 50px,
-        transparent 50px
+        transparent 100px,
+        transparent 100px
       );
   }
 }
