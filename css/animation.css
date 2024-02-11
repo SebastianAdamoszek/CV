@@ -11,7 +11,7 @@
       #009738cc,
       #170099cc 30px,
       transparent 20px,
-      transparent 15px
+      transparent 100px
     );
 
   animation: startAnimationBody 20s infinite;
@@ -23,11 +23,11 @@
         45deg,
         #1928b2,
         #281333 30px,
-        transparent 50px,
+        transparent 10px,
         transparent 50px
       ),
       repeating-linear-gradient(
-        60deg,
+        -60deg,
         #ff8a00,
         #e52e71 30px,
         transparent 20px,
@@ -39,8 +39,8 @@
         45deg,
         #1928b2,
         #281333 30px,
-        transparent 30px,
-        transparent 30px
+        transparent 100px,
+        transparent 100px
       ),
       repeating-linear-gradient(
         -30deg,
@@ -61,9 +61,9 @@
       repeating-linear-gradient(
         30deg,
         #095632,
-        #932584 30px,
-        transparent 20px,
-        transparent 15px
+        #932584 20px,
+        transparent 50px,
+        transparent 50px
       );
   }
 }
