@@ -1,26 +1,78 @@
 .body__start-animation {
-  background: linear-gradient(
-    30deg,
-    rgba(0, 151, 56, 0.8),
-    rgba(23, 0, 153, 0.8)
-  );
+  background: repeating-linear-gradient(
+      45deg,
+      #1928b2,
+      #281333 10px,
+      transparent 50px,
+      transparent 50px
+    ),
+    repeating-linear-gradient(
+      30deg,
+      #009738cc,
+      #170099cc 30px,
+      transparent 20px,
+      transparent 15px
+    );
+
   animation: startAnimationBody 20s infinite;
 }
 
 @keyframes startAnimationBody {
   25% {
-    background: linear-gradient(to right, #ff8a00, #e52e71);
-  }
-  30% {
-    background: linear-gradient(to right, #ff8a00, #e52e71);
+    background: repeating-linear-gradient(
+        45deg,
+        #1928b2,
+        #281333 10px,
+        transparent 50px,
+        transparent 50px
+      ),
+      repeating-linear-gradient(
+        30deg,
+        #ff8a00,
+        #e52e71 30px,
+        transparent 20px,
+        transparent 15px
+      );
   }
   50% {
-    background: linear-gradient(to right, #1e90ff, #00ced1);
+    background: repeating-linear-gradient(
+        45deg,
+        #1928b2,
+        #281333 10px,
+        transparent 50px,
+        transparent 50px
+      ),
+      repeating-linear-gradient(
+        30deg,
+        #1e90ff,
+        #00ced1 30px,
+        transparent 20px,
+        transparent 15px
+      );
   }
   75% {
-    background: linear-gradient(to right, #228e5c, #252793);
+    background: repeating-linear-gradient(
+        45deg,
+        #1928b2,
+        #281333 10px,
+        transparent 50px,
+        transparent 50px
+      ),
+      repeating-linear-gradient(
+        30deg,
+        #228e5c,
+        #252793 30px,
+        transparent 20px,
+        transparent 15px
+      );
   }
 }
+
+/* .line {
+  background: 
+    repeating-linear-gradient(45deg, #1928b2, #281333 10px, transparent 50px, transparent 50px),
+    repeating-linear-gradient(-45deg, #6c1919, #258751 10px, transparent 10px, transparent 50px);
+} */
 
 .wrapper__start-animation {
   animation: startAnimationWrapper 2s ease-in-out;
@@ -113,13 +165,12 @@
 }
 
 .gallery__img-animation {
- 
   transform-origin: top;
-  animation: imgAnimationGallery 1s ease-in-out; 
+  animation: imgAnimationGallery 1s ease-in-out;
 }
 
 @keyframes imgAnimationGallery {
   0% {
-    transform: scaleY(0); 
+    transform: scaleY(0);
   }
-} 
+}
