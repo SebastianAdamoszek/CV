@@ -7,7 +7,7 @@
       transparent 50px
     ),
     repeating-linear-gradient(
-      30deg,
+      90deg,
       #009738cc,
       #170099cc 30px,
       transparent 20px,
@@ -22,12 +22,12 @@
     background: repeating-linear-gradient(
         45deg,
         #1928b2,
-        #281333 10px,
+        #281333 30px,
         transparent 50px,
         transparent 50px
       ),
       repeating-linear-gradient(
-        30deg,
+        60deg,
         #ff8a00,
         #e52e71 30px,
         transparent 20px,
@@ -38,12 +38,12 @@
     background: repeating-linear-gradient(
         45deg,
         #1928b2,
-        #281333 10px,
-        transparent 50px,
-        transparent 50px
+        #281333 30px,
+        transparent 30px,
+        transparent 30px
       ),
       repeating-linear-gradient(
-        30deg,
+        -30deg,
         #1e90ff,
         #00ced1 30px,
         transparent 20px,
@@ -52,7 +52,7 @@
   }
   75% {
     background: repeating-linear-gradient(
-        45deg,
+        -45deg,
         #1928b2,
         #281333 10px,
         transparent 50px,
@@ -60,8 +60,8 @@
       ),
       repeating-linear-gradient(
         30deg,
-        #228e5c,
-        #252793 30px,
+        #095632,
+        #932584 30px,
         transparent 20px,
         transparent 15px
       );
