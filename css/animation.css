@@ -1,19 +1,18 @@
 .body__start-animation {
   background: repeating-linear-gradient(
-      45deg,
-      #1928b2,
-      #281333 20px,
-      transparent 100px,
-      transparent 120px
+      180deg,
+      #1928b2 5px,
+      #281333 2px,
+      transparent 30px,
+      transparent 10px
     ),
     repeating-linear-gradient(
       90deg,
-      #009738cc,
-      #170099cc 30px,
-      transparent 20px,
+      #009738cc ,
+      #170099cc ,
+      transparent 100px,
       transparent 50px
     );
-
   animation: startAnimationBody 20s infinite;
 }
 
@@ -22,54 +21,54 @@
     background: repeating-linear-gradient(
         45deg,
         #1928b2,
-        #281333 30px,
-        transparent 10px,
-        transparent 50px
+        #281333 10px,
+        transparent 30px,
+        transparent 15px
       ),
       repeating-linear-gradient(
-        -60deg,
+        -45deg,
         #ff8a00,
-        #e52e71 30px,
-        transparent 20px,
+        #e52e71 15px,
+        transparent 15px,
         transparent 15px
       );
   }
   50% {
     background: repeating-linear-gradient(
-        45deg,
+        90deg,
         #1928b2,
-        #281333 30px,
-        transparent 100px,
-        transparent 100px
+        #281333 2px,
+        transparent 20px,
+        transparent 30px
       ),
       repeating-linear-gradient(
-        -30deg,
+        180deg,
         #1e90ff,
         #00ced1 30px,
-        transparent 20px,
-        transparent 15px
+        transparent 8px,
+        transparent 20px
       );
   }
   75% {
     background: repeating-linear-gradient(
         -45deg,
         #1928b2,
-        #281333 10px,
-        transparent 50px,
-        transparent 50px
+        #281333 ,
+        transparent 30px,
+        transparent 10px
       ),
       repeating-linear-gradient(
-        30deg,
-        #095632,
+        45deg,
+        #095632 2px,
         #932584 20px,
-        transparent 100px,
-        transparent 100px
+        transparent 60px,
+        transparent 10px
       );
   }
 }
 
 /* .line {
-  background: 
+  background:
     repeating-linear-gradient(45deg, #1928b2, #281333 10px, transparent 50px, transparent 50px),
     repeating-linear-gradient(-45deg, #6c1919, #258751 10px, transparent 10px, transparent 50px);
 } */
